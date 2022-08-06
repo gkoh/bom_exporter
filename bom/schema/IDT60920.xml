@@ -1,0 +1,1586 @@
+<?xml version="1.0"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="v1.7.1" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+  <amoc>
+    <source>
+      <sender>Australian Government Bureau of Meteorology</sender>
+      <region>Tasmania</region>
+      <office>TASRO</office>
+      <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+      <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDT60920</identifier>
+    <issue-time-utc>2022-06-04T06:11:02+00:00</issue-time-utc>
+    <issue-time-local tz="EST">2022-06-04T16:11:02+10:00</issue-time-local>
+    <sent-time>2022-06-04T06:11:51+00:00</sent-time>
+    <status>O</status>
+    <service>WSP</service>
+    <product-type>O</product-type>
+    <phase>NEW</phase>
+  </amoc>
+  <observations>
+    <station wmo-id="94970" bom-id="094029" tz="Australia/Hobart" stn-name="HOBART (ELLERSLIE ROAD)" stn-height="50.50" type="AWS" lat="-42.8897" lon="147.3278" forecast-district-id="TAS_PW006" description="Hobart">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="TMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">8.4</element>
+          <element units="Celsius" type="delta_t">2.3</element>
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element units="Celsius" type="air_temperature">11.3</element>
+          <element units="Celsius" type="dew_point">6.4</element>
+          <element units="hPa" type="pres">999.6</element>
+          <element units="hPa" type="msl_pres">999.6</element>
+          <element units="hPa" type="qnh_pres">999.4</element>
+          <element units="%" type="rel-humidity">72</element>
+          <element type="wind_dir">ESE</element>
+          <element units="deg" type="wind_dir_deg">105</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T04:52:00+00:00" time-local="2022-06-04T14:52:00+10:00">13.4</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T19:36:00+00:00" time-local="2022-06-04T05:36:00+10:00">6.9</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T15:51:00+00:00" time-local="2022-06-04T01:51:00+10:00">21</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T15:51:00+00:00" time-local="2022-06-04T01:51:00+10:00">39</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T15:51:00+00:00" time-local="2022-06-04T01:51:00+10:00">NNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94953" bom-id="091292" tz="Australia/Hobart" stn-name="SMITHTON AERODROME" stn-height="7.50" type="AWS" lat="-40.8347" lon="145.0847" forecast-district-id="TAS_PW010" description="Smithton">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">7.9</element>
+          <element units="Celsius" type="delta_t">0.8</element>
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element units="Celsius" type="air_temperature">10.3</element>
+          <element units="Celsius" type="dew_point">8.6</element>
+          <element units="hPa" type="pres">1000.9</element>
+          <element units="hPa" type="msl_pres">1000.9</element>
+          <element units="hPa" type="qnh_pres">1000.9</element>
+          <element units="%" type="rel-humidity">89</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">337</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">1.6</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">8.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T03:04:00+00:00" time-local="2022-06-04T13:04:00+10:00">13.2</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:32:00+00:00" time-local="2022-06-04T07:32:00+10:00">3.1</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T14:08:00+00:00" time-local="2022-06-04T00:08:00+10:00">16</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T14:08:00+00:00" time-local="2022-06-04T00:08:00+10:00">30</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T14:08:00+00:00" time-local="2022-06-04T00:08:00+10:00">WSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94987" bom-id="092114" tz="Australia/Hobart" stn-name="FRIENDLY BEACHES" stn-height="55.00" type="AWS" lat="-41.9953" lon="148.2794" forecast-district-id="TAS_PW003" description="Friendly Beaches">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">8.7</element>
+          <element units="Celsius" type="delta_t">2.7</element>
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element units="Celsius" type="air_temperature">11.4</element>
+          <element units="Celsius" type="dew_point">5.5</element>
+          <element units="hPa" type="pres">1000.2</element>
+          <element units="hPa" type="msl_pres">1000.2</element>
+          <element units="%" type="rel-humidity">67</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">347</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T03:33:00+00:00" time-local="2022-06-04T13:33:00+10:00">14.7</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:50:00+00:00" time-local="2022-06-04T07:50:00+10:00">8.6</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T23:55:00+00:00" time-local="2022-06-04T09:55:00+10:00">18</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T23:55:00+00:00" time-local="2022-06-04T09:55:00+10:00">33</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T23:55:00+00:00" time-local="2022-06-04T09:55:00+10:00">WNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95988" bom-id="092124" tz="Australia/Hobart" stn-name="MARIA ISLAND (POINT LESUEUR)" stn-height="28.00" type="AWS" lat="-42.6621" lon="148.0179" forecast-district-id="TAS_PW003" description="Maria Island">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">8.5</element>
+          <element units="Celsius" type="delta_t">3.1</element>
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element units="Celsius" type="air_temperature">12.6</element>
+          <element units="Celsius" type="dew_point">6.2</element>
+          <element units="hPa" type="pres">999.5</element>
+          <element units="hPa" type="msl_pres">999.5</element>
+          <element units="%" type="rel-humidity">65</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">344</element>
+          <element units="km/h" type="wind_spd_kmh">17</element>
+          <element units="knots" type="wind_spd">9</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:39:00+00:00" time-local="2022-06-04T12:39:00+10:00">14.0</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:09:00+00:00" time-local="2022-06-04T08:09:00+10:00">10.4</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T16:18:00+00:00" time-local="2022-06-04T02:18:00+10:00">25</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T16:18:00+00:00" time-local="2022-06-04T02:18:00+10:00">46</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T16:18:00+00:00" time-local="2022-06-04T02:18:00+10:00">NNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95986" bom-id="094155" tz="Australia/Hobart" stn-name="TASMAN ISLAND" stn-height="240.00" type="AWS" lat="-43.2397" lon="148.0025" forecast-district-id="TAS_PW006" description="Tasman Island">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">7.7</element>
+          <element units="Celsius" type="delta_t">2.4</element>
+          <element units="km/h" type="gust_kmh">4</element>
+          <element units="knots" type="wind_gust_spd">2</element>
+          <element units="Celsius" type="air_temperature">9.7</element>
+          <element units="Celsius" type="dew_point">4.5</element>
+          <element units="hPa" type="pres">999.9</element>
+          <element units="hPa" type="msl_pres">999.9</element>
+          <element units="%" type="rel-humidity">70</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">318</element>
+          <element units="km/h" type="wind_spd_kmh">4</element>
+          <element units="knots" type="wind_spd">2</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T03:01:00+00:00" time-local="2022-06-04T13:01:00+10:00">11.8</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T15:00:00+00:00" time-local="2022-06-04T01:00:00+10:00">8.7</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T14:18:00+00:00" time-local="2022-06-04T00:18:00+10:00">27</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T14:18:00+00:00" time-local="2022-06-04T00:18:00+10:00">50</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T14:18:00+00:00" time-local="2022-06-04T00:18:00+10:00">NNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95987" bom-id="092133" tz="Australia/Hobart" stn-name="SPRING BAY NTC AWS" stn-height="0.00" type="AWS" lat="-42.5464" lon="147.9308" forecast-district-id="TAS_MW005" description="Spring Bay">
+      <period index="0" time-utc="2022-06-04T06:00:00+00:00" time-local="2022-06-04T16:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="air_temperature">12.8</element>
+          <element units="hPa" type="pres">999.6</element>
+          <element units="hPa" type="msl_pres">999.6</element>
+          <element units="hPa" type="qnh_pres">999.6</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94981" bom-id="092148" tz="Australia/Hobart" stn-name="SWANSEA (FRANCIS STREET)" stn-height="19.00" type="Non-AWS" lat="-42.1381" lon="148.0736" forecast-district-id="TAS_PW003" description="Swansea">
+      <period index="0" time-utc="2022-06-03T23:00:00+00:00" time-local="2022-06-04T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">7.4</element>
+          <element type="cloud">Partly cloudy</element>
+          <element type="cloud_oktas">3</element>
+          <element type="cloud_type_id">30</element>
+          <element units="Celsius" type="delta_t">1.2</element>
+          <element units="Celsius" type="air_temperature">9.0</element>
+          <element units="Celsius" type="dew_point">6.4</element>
+          <element units="hPa" type="pres">1001.7</element>
+          <element units="hPa" type="msl_pres">1001.7</element>
+          <element units="%" type="rel-humidity">84</element>
+          <element units="km" type="vis_km">30</element>
+          <element type="weather">Fine</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">310</element>
+          <element units="km/h" type="wind_spd_kmh">4</element>
+          <element units="knots" type="wind_spd">2</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95967" bom-id="094198" tz="Australia/Hobart" stn-name="CAPE BRUNY (CAPE BRUNY)" stn-height="59.70" type="AWS" lat="-43.4886" lon="147.1444" forecast-district-id="TAS_PW006" description="Cape Bruny AWS">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">6.1</element>
+          <element units="Celsius" type="delta_t">1.3</element>
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element units="Celsius" type="air_temperature">9.0</element>
+          <element units="Celsius" type="dew_point">6.3</element>
+          <element units="hPa" type="pres">999.3</element>
+          <element units="hPa" type="msl_pres">999.3</element>
+          <element units="hPa" type="qnh_pres">999.2</element>
+          <element units="%" type="rel-humidity">83</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">327</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.4</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T01:16:00+00:00" time-local="2022-06-04T11:16:00+10:00">13.2</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T18:03:00+00:00" time-local="2022-06-04T04:03:00+10:00">8.2</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T21:43:00+00:00" time-local="2022-06-04T07:43:00+10:00">19</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T21:43:00+00:00" time-local="2022-06-04T07:43:00+10:00">35</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T21:43:00+00:00" time-local="2022-06-04T07:43:00+10:00">WNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95961" bom-id="097080" tz="Australia/Hobart" stn-name="LOW ROCKY POINT" stn-height="34.00" type="AWS" lat="-42.9831" lon="145.5025" forecast-district-id="TAS_PW009" description="Low Rocky Point">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.8</element>
+          <element units="Celsius" type="delta_t">0.2</element>
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element units="Celsius" type="air_temperature">8.7</element>
+          <element units="Celsius" type="dew_point">8.3</element>
+          <element units="hPa" type="pres">999.5</element>
+          <element units="hPa" type="msl_pres">999.5</element>
+          <element units="hPa" type="qnh_pres">999.4</element>
+          <element units="%" type="rel-humidity">97</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">354</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">2.8</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">12.8</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T03:32:00+00:00" time-local="2022-06-04T13:32:00+10:00">12.5</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:58:00+00:00" time-local="2022-06-04T07:58:00+10:00">9.1</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T20:09:00+00:00" time-local="2022-06-04T06:09:00+10:00">32</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T20:09:00+00:00" time-local="2022-06-04T06:09:00+10:00">59</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T20:09:00+00:00" time-local="2022-06-04T06:09:00+10:00">WNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94962" bom-id="094041" tz="Australia/Hobart" stn-name="MAATSUYKER ISLAND LIGHTHOUSE" stn-height="146.50" type="AWS" lat="-43.6578" lon="146.2711" forecast-district-id="TAS_PW009" description="Maatsuyker Island">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.1</element>
+          <element units="Celsius" type="delta_t">2.4</element>
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element units="Celsius" type="air_temperature">9.6</element>
+          <element units="Celsius" type="dew_point">4.2</element>
+          <element units="hPa" type="pres">999.0</element>
+          <element units="hPa" type="msl_pres">999.0</element>
+          <element units="hPa" type="qnh_pres">998.8</element>
+          <element units="%" type="rel-humidity">69</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">336</element>
+          <element units="km/h" type="wind_spd_kmh">17</element>
+          <element units="knots" type="wind_spd">9</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.2</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">7.6</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T04:11:00+00:00" time-local="2022-06-04T14:11:00+10:00">11.0</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:25:00+00:00" time-local="2022-06-04T08:25:00+10:00">7.9</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T20:05:00+00:00" time-local="2022-06-04T06:05:00+10:00">41</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T20:05:00+00:00" time-local="2022-06-04T06:05:00+10:00">76</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T20:05:00+00:00" time-local="2022-06-04T06:05:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94974" bom-id="097000" tz="Australia/Hobart" stn-name="CAPE SORELL" stn-height="19.30" type="AWS" lat="-42.1986" lon="145.1700" forecast-district-id="TAS_PW009" description="Cape Sorell">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">3.7</element>
+          <element units="Celsius" type="delta_t">0.9</element>
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element units="Celsius" type="air_temperature">8.6</element>
+          <element units="Celsius" type="dew_point">6.7</element>
+          <element units="hPa" type="pres">999.1</element>
+          <element units="hPa" type="msl_pres">999.1</element>
+          <element units="%" type="rel-humidity">88</element>
+          <element type="wind_dir">SW</element>
+          <element units="deg" type="wind_dir_deg">224</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">1.6</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">17.2</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:09:00+00:00" time-local="2022-06-04T12:09:00+10:00">13.1</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T19:17:00+00:00" time-local="2022-06-04T05:17:00+10:00">9.5</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-04T06:05:00+00:00" time-local="2022-06-04T16:05:00+10:00">25</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-04T06:05:00+00:00" time-local="2022-06-04T16:05:00+10:00">46</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-04T06:05:00+00:00" time-local="2022-06-04T16:05:00+10:00">WSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94956" bom-id="097072" tz="Australia/Hobart" stn-name="STRAHAN AERODROME" stn-height="21.00" type="AWS" lat="-42.1550" lon="145.2908" forecast-district-id="TAS_PW009" description="Strahan">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">7.0</element>
+          <element type="cloud">Partly cloudy</element>
+          <element type="cloud_oktas">5</element>
+          <element units="Celsius" type="delta_t">0.9</element>
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element units="Celsius" type="air_temperature">9.9</element>
+          <element units="Celsius" type="dew_point">8.0</element>
+          <element units="hPa" type="pres">999.2</element>
+          <element units="hPa" type="msl_pres">999.2</element>
+          <element units="hPa" type="qnh_pres">999.1</element>
+          <element units="%" type="rel-humidity">88</element>
+          <element units="km" type="vis_km">49</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">8</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">23.2</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:33:00+00:00" time-local="2022-06-04T12:33:00+10:00">11.8</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:28:00+00:00" time-local="2022-06-04T07:28:00+10:00">7.8</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T22:20:00+00:00" time-local="2022-06-04T08:20:00+10:00">27</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T22:20:00+00:00" time-local="2022-06-04T08:20:00+10:00">50</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T22:20:00+00:00" time-local="2022-06-04T08:20:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95985" bom-id="092123" tz="Australia/Hobart" stn-name="SWAN ISLAND" stn-height="15.00" type="AWS" lat="-40.7292" lon="148.1250" forecast-district-id="TAS_PW002" description="Swan Island">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">6.8</element>
+          <element units="Celsius" type="delta_t">0.7</element>
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element units="Celsius" type="air_temperature">11.6</element>
+          <element units="Celsius" type="dew_point">10.3</element>
+          <element units="hPa" type="pres">1002.2</element>
+          <element units="hPa" type="msl_pres">1002.2</element>
+          <element units="%" type="rel-humidity">92</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">275</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.8</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">2.2</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:53:00+00:00" time-local="2022-06-04T12:53:00+10:00">15.0</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:08:00+00:00" time-local="2022-06-04T07:08:00+10:00">11.0</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T17:35:00+00:00" time-local="2022-06-04T03:35:00+10:00">36</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T17:35:00+00:00" time-local="2022-06-04T03:35:00+10:00">67</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T17:35:00+00:00" time-local="2022-06-04T03:35:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94975" bom-id="094008" tz="Australia/Hobart" stn-name="HOBART AIRPORT" stn-height="4.00" type="AWS" lat="-42.8339" lon="147.5033" forecast-district-id="TAS_PW006" description="Hobart Airport">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="TMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">9.4</element>
+          <element type="cloud">Mostly clear</element>
+          <element type="cloud_oktas">2</element>
+          <element units="Celsius" type="delta_t">2.6</element>
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element units="Celsius" type="air_temperature">11.5</element>
+          <element units="Celsius" type="dew_point">6.0</element>
+          <element units="hPa" type="pres">999.8</element>
+          <element units="hPa" type="msl_pres">999.8</element>
+          <element units="hPa" type="qnh_pres">999.8</element>
+          <element units="%" type="rel-humidity">69</element>
+          <element units="km" type="vis_km">61</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">145</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T03:51:00+00:00" time-local="2022-06-04T13:51:00+10:00">14.2</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:01:00+00:00" time-local="2022-06-04T08:01:00+10:00">4.5</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T22:49:00+00:00" time-local="2022-06-04T08:49:00+10:00">12</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T22:49:00+00:00" time-local="2022-06-04T08:49:00+10:00">22</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T22:49:00+00:00" time-local="2022-06-04T08:49:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95972" bom-id="094212" tz="Australia/Hobart" stn-name="CAMPANIA (KINCORA)" stn-height="45.00" type="AWS" lat="-42.6867" lon="147.4258" forecast-district-id="TAS_PW006" description="Campania">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">8.0</element>
+          <element units="Celsius" type="delta_t">2.8</element>
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element units="Celsius" type="air_temperature">11.5</element>
+          <element units="Celsius" type="dew_point">5.4</element>
+          <element units="%" type="rel-humidity">66</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">9</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T04:34:00+00:00" time-local="2022-06-04T14:34:00+10:00">14.1</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:34:00+00:00" time-local="2022-06-04T07:34:00+10:00">3.5</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-04T03:11:00+00:00" time-local="2022-06-04T13:11:00+10:00">14</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-04T03:11:00+00:00" time-local="2022-06-04T13:11:00+10:00">26</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-04T03:11:00+00:00" time-local="2022-06-04T13:11:00+10:00">WNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94961" bom-id="094020" tz="Australia/Hobart" stn-name="DOVER" stn-height="20.00" type="Non-AWS" lat="-43.3330" lon="146.9980" forecast-district-id="TAS_PW006" description="Dover">
+      <period index="0" time-utc="2022-06-03T23:00:00+00:00" time-local="2022-06-04T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">3.9</element>
+          <element type="cloud">Partly cloudy</element>
+          <element units="m" type="cloud_base_m">1000</element>
+          <element type="cloud_oktas">4</element>
+          <element type="cloud_type_id">35</element>
+          <element units="Celsius" type="delta_t">0.0</element>
+          <element units="Celsius" type="air_temperature">5.0</element>
+          <element units="Celsius" type="dew_point">5.0</element>
+          <element units="%" type="rel-humidity">100</element>
+          <element units="km" type="vis_km">35</element>
+          <element type="weather">Fine</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall">0.4</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.4</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94980" bom-id="099005" tz="Australia/Hobart" stn-name="FLINDERS ISLAND AIRPORT" stn-height="9.00" type="AWS" lat="-40.0911" lon="148.0024" forecast-district-id="TAS_PW001" description="Flinders Island Airport">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">4.7</element>
+          <element type="cloud">Mostly clear</element>
+          <element type="cloud_oktas">2</element>
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="km/h" type="gust_kmh">35</element>
+          <element units="knots" type="wind_gust_spd">19</element>
+          <element units="Celsius" type="air_temperature">10.6</element>
+          <element units="Celsius" type="dew_point">10.4</element>
+          <element units="hPa" type="pres">1003.5</element>
+          <element units="hPa" type="msl_pres">1003.5</element>
+          <element units="hPa" type="qnh_pres">1003.5</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element units="km" type="vis_km">10</element>
+          <element units="km/h" type="wind_spd_kmh">32</element>
+          <element units="knots" type="wind_spd">17</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T01:21:00+00:00" time-local="2022-06-04T11:21:00+10:00">13.2</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T09:29:00+00:00" time-local="2022-06-03T19:29:00+10:00">10.6</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T19:18:00+00:00" time-local="2022-06-04T05:18:00+10:00">31</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T19:18:00+00:00" time-local="2022-06-04T05:18:00+10:00">57</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95959" bom-id="096033" tz="Australia/Hobart" stn-name="LIAWENEE" stn-height="1057.00" type="AWS" lat="-41.8997" lon="146.6694" forecast-district-id="TAS_PW008" description="Liawenee">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-0.8</element>
+          <element units="Celsius" type="delta_t">0.5</element>
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element units="Celsius" type="air_temperature">3.0</element>
+          <element units="Celsius" type="dew_point">1.7</element>
+          <element units="hPa" type="pres">1000.9</element>
+          <element units="hPa" type="msl_pres">1000.9</element>
+          <element units="hPa" type="qnh_pres">999.1</element>
+          <element units="%" type="rel-humidity">91</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">297</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.8</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:46:00+00:00" time-local="2022-06-04T12:46:00+10:00">6.9</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:33:00+00:00" time-local="2022-06-04T07:33:00+10:00">0.5</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T14:13:00+00:00" time-local="2022-06-04T00:13:00+10:00">22</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T14:13:00+00:00" time-local="2022-06-04T00:13:00+10:00">41</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T14:13:00+00:00" time-local="2022-06-04T00:13:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94950" bom-id="091223" tz="Australia/Hobart" stn-name="MARRAWAH" stn-height="107.30" type="Non-AWS" lat="-40.9089" lon="144.7094" forecast-district-id="TAS_FA001" description="Marrawah">
+      <period index="0" time-utc="2022-06-03T23:00:00+00:00" time-local="2022-06-04T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.7</element>
+          <element type="cloud">Mostly cloudy</element>
+          <element units="m" type="cloud_base_m">600</element>
+          <element type="cloud_oktas">7</element>
+          <element type="cloud_type_id">33</element>
+          <element units="Celsius" type="delta_t">0.7</element>
+          <element units="Celsius" type="air_temperature">9.7</element>
+          <element units="Celsius" type="dew_point">8.3</element>
+          <element units="hPa" type="pres">1003.2</element>
+          <element units="hPa" type="msl_pres">1003.2</element>
+          <element units="%" type="rel-humidity">91</element>
+          <element units="m" type="sea_height">1</element>
+          <element type="swell_dir">SW</element>
+          <element units="m" type="swell_height">3.0</element>
+          <element units="s" type="swell_period">12</element>
+          <element units="km" type="vis_km">10</element>
+          <element type="weather">Showers</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">270</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall">10.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">10.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95979" bom-id="094087" tz="Australia/Hobart" stn-name="KUNANYI (MOUNT WELLINGTON PINNACLE)" stn-height="1260.47" type="AWS" lat="-42.8950" lon="147.2358" forecast-district-id="TAS_PW006" description="kunanyi /Mount Wellington">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-4.2</element>
+          <element units="Celsius" type="delta_t">0.0</element>
+          <element units="km/h" type="gust_kmh">22</element>
+          <element units="knots" type="wind_gust_spd">12</element>
+          <element units="Celsius" type="air_temperature">1.4</element>
+          <element units="Celsius" type="dew_point">1.4</element>
+          <element units="%" type="rel-humidity">100</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">319</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T05:01:00+00:00" time-local="2022-06-04T15:01:00+10:00">1.7</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:14:00+00:00" time-local="2022-06-04T08:14:00+10:00">-0.2</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T14:05:00+00:00" time-local="2022-06-04T00:05:00+10:00">42</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T14:05:00+00:00" time-local="2022-06-04T00:05:00+10:00">78</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T14:05:00+00:00" time-local="2022-06-04T00:05:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94957" bom-id="095048" tz="Australia/Hobart" stn-name="OUSE FIRE STATION" stn-height="90.00" type="AWS" lat="-42.4842" lon="146.7106" forecast-district-id="TAS_PW007" description="Ouse">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">10.7</element>
+          <element units="Celsius" type="delta_t">2.9</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">11.7</element>
+          <element units="Celsius" type="dew_point">5.6</element>
+          <element units="hPa" type="pres">999.2</element>
+          <element units="hPa" type="msl_pres">999.2</element>
+          <element units="hPa" type="qnh_pres">999.0</element>
+          <element units="%" type="rel-humidity">66</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:45:00+00:00" time-local="2022-06-04T12:45:00+10:00">12.8</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:34:00+00:00" time-local="2022-06-04T07:34:00+10:00">1.7</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-04T02:00:00+00:00" time-local="2022-06-04T12:00:00+10:00">14</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-04T02:00:00+00:00" time-local="2022-06-04T12:00:00+10:00">26</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-04T02:00:00+00:00" time-local="2022-06-04T12:00:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94985" bom-id="093053" tz="Australia/Hobart" stn-name="ROSS (THE BOULEVARDS)" stn-height="186.00" type="Non-AWS" lat="-42.0250" lon="147.4953" forecast-district-id="TAS_PW005" description="Ross">
+      <period index="0" time-utc="2022-06-03T23:00:00+00:00" time-local="2022-06-04T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.5</element>
+          <element type="cloud">Partly cloudy</element>
+          <element type="cloud_oktas">5</element>
+          <element units="Celsius" type="delta_t">0.4</element>
+          <element units="Celsius" type="air_temperature">7.4</element>
+          <element units="Celsius" type="dew_point">6.5</element>
+          <element units="%" type="rel-humidity">94</element>
+          <element units="km" type="vis_km">30</element>
+          <element type="weather">Fine</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">360</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall">0.8</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.8</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95964" bom-id="091293" tz="Australia/Hobart" stn-name="LOW HEAD" stn-height="3.00" type="AWS" lat="-41.0547" lon="146.7874" forecast-district-id="TAS_PW004" description="Low Head">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">8.1</element>
+          <element units="Celsius" type="delta_t">1.9</element>
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element units="Celsius" type="air_temperature">12.1</element>
+          <element units="Celsius" type="dew_point">8.2</element>
+          <element units="hPa" type="pres">1001.0</element>
+          <element units="hPa" type="msl_pres">1001.0</element>
+          <element units="hPa" type="qnh_pres">1001.0</element>
+          <element units="%" type="rel-humidity">77</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">291</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">1.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">12.8</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T01:52:00+00:00" time-local="2022-06-04T11:52:00+10:00">13.4</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T14:38:00+00:00" time-local="2022-06-04T00:38:00+10:00">12.0</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T15:53:00+00:00" time-local="2022-06-04T01:53:00+10:00">38</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T15:53:00+00:00" time-local="2022-06-04T01:53:00+10:00">70</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T15:53:00+00:00" time-local="2022-06-04T01:53:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94983" bom-id="092045" tz="Australia/Hobart" stn-name="LARAPUNA (EDDYSTONE POINT)" stn-height="19.70" type="AWS" lat="-40.9928" lon="148.3467" forecast-district-id="TAS_PW002" description="Larapuna (Eddystone Point)">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">6.7</element>
+          <element units="Celsius" type="delta_t">0.5</element>
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element units="Celsius" type="air_temperature">10.1</element>
+          <element units="Celsius" type="dew_point">9.0</element>
+          <element units="hPa" type="pres">1001.8</element>
+          <element units="hPa" type="msl_pres">1001.8</element>
+          <element units="hPa" type="qnh_pres">1001.8</element>
+          <element units="%" type="rel-humidity">93</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">325</element>
+          <element units="km/h" type="wind_spd_kmh">17</element>
+          <element units="knots" type="wind_spd">9</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">1.2</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.6</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T03:49:00+00:00" time-local="2022-06-04T13:49:00+10:00">15.6</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:55:00+00:00" time-local="2022-06-04T07:55:00+10:00">9.7</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T15:46:00+00:00" time-local="2022-06-04T01:46:00+10:00">28</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T15:46:00+00:00" time-local="2022-06-04T01:46:00+10:00">52</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T15:46:00+00:00" time-local="2022-06-04T01:46:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94972" bom-id="091219" tz="Australia/Hobart" stn-name="SCOTTSDALE (WEST MINSTONE ROAD)" stn-height="197.50" type="AWS" lat="-41.1708" lon="147.4883" forecast-district-id="TAS_PW002" description="Scottsdale">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.6</element>
+          <element units="Celsius" type="delta_t">0.7</element>
+          <element units="km/h" type="gust_kmh">9</element>
+          <element units="knots" type="wind_gust_spd">5</element>
+          <element units="Celsius" type="air_temperature">8.1</element>
+          <element units="Celsius" type="dew_point">6.7</element>
+          <element units="hPa" type="pres">1001.7</element>
+          <element units="hPa" type="msl_pres">1001.7</element>
+          <element units="hPa" type="qnh_pres">1001.2</element>
+          <element units="%" type="rel-humidity">91</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.6</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">13.4</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:45:00+00:00" time-local="2022-06-04T12:45:00+10:00">12.4</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:50:00+00:00" time-local="2022-06-04T07:50:00+10:00">6.4</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T15:46:00+00:00" time-local="2022-06-04T01:46:00+10:00">26</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T15:46:00+00:00" time-local="2022-06-04T01:46:00+10:00">48</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T15:46:00+00:00" time-local="2022-06-04T01:46:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95989" bom-id="092003" tz="Australia/Hobart" stn-name="BICHENO (COUNCIL DEPOT)" stn-height="11.00" type="Non-AWS" lat="-41.8739" lon="148.3036" forecast-district-id="TAS_PW003" description="Bicheno">
+      <period index="0" time-utc="2022-06-02T23:00:00+00:00" time-local="2022-06-03T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">8.8</element>
+          <element type="cloud">Partly cloudy</element>
+          <element type="cloud_oktas">4</element>
+          <element units="Celsius" type="delta_t">1.2</element>
+          <element units="Celsius" type="air_temperature">9.8</element>
+          <element units="Celsius" type="dew_point">7.3</element>
+          <element units="%" type="rel-humidity">84</element>
+          <element units="km" type="vis_km">20</element>
+          <element type="weather">Fine</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">310</element>
+          <element units="km/h" type="wind_spd_kmh">2</element>
+          <element units="knots" type="wind_spd">1</element>
+          <element start-time-local="2022-06-02T09:00:00+10:00" end-time-local="2022-06-03T09:00:00+10:00" duration="1440" start-time-utc="2022-06-01T23:00:00+00:00" end-time-utc="2022-06-02T23:00:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-02T09:00:00+10:00" end-time-local="2022-06-03T09:00:00+10:00" duration="1440" start-time-utc="2022-06-01T23:00:00+00:00" end-time-utc="2022-06-02T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94979" bom-id="092019" tz="Australia/Hobart" stn-name="LAKE LEAKE (ELIZABETH RIVER)" stn-height="575.00" type="Non-AWS" lat="-42.0067" lon="147.7975" forecast-district-id="TAS_PW003" description="Lake Leake">
+      <period index="0" time-utc="2022-06-03T23:00:00+00:00" time-local="2022-06-04T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">3.7</element>
+          <element type="cloud">Partly cloudy</element>
+          <element type="cloud_oktas">5</element>
+          <element units="Celsius" type="delta_t">0.2</element>
+          <element units="Celsius" type="air_temperature">5.9</element>
+          <element units="Celsius" type="dew_point">5.5</element>
+          <element units="%" type="rel-humidity">97</element>
+          <element units="km" type="vis_km">50</element>
+          <element type="weather">Fine</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">290</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall">0.6</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.6</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95981" bom-id="092120" tz="Australia/Hobart" stn-name="ST HELENS AERODROME" stn-height="48.00" type="AWS" lat="-41.3381" lon="148.2792" forecast-district-id="TAS_PW003" description="St Helens">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">9.2</element>
+          <element type="cloud">Mostly clear</element>
+          <element type="cloud_oktas">2</element>
+          <element units="Celsius" type="delta_t">1.7</element>
+          <element units="km/h" type="gust_kmh">6</element>
+          <element units="knots" type="wind_gust_spd">3</element>
+          <element units="Celsius" type="air_temperature">10.9</element>
+          <element units="Celsius" type="dew_point">7.4</element>
+          <element units="hPa" type="pres">1001.1</element>
+          <element units="hPa" type="msl_pres">1001.1</element>
+          <element units="hPa" type="qnh_pres">1001.0</element>
+          <element units="%" type="rel-humidity">79</element>
+          <element units="km" type="vis_km">68</element>
+          <element type="wind_dir">WSW</element>
+          <element units="deg" type="wind_dir_deg">254</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.6</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T03:41:00+00:00" time-local="2022-06-04T13:41:00+10:00">14.9</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:22:00+00:00" time-local="2022-06-04T08:22:00+10:00">8.7</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T17:02:00+00:00" time-local="2022-06-04T03:02:00+10:00">21</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T17:02:00+00:00" time-local="2022-06-04T03:02:00+10:00">39</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T17:02:00+00:00" time-local="2022-06-04T03:02:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94969" bom-id="091237" tz="Australia/Hobart" stn-name="LAUNCESTON (TI TREE BEND)" stn-height="5.00" type="AWS" lat="-41.4194" lon="147.1219" forecast-district-id="TAS_PW004" description="Launceston">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">9.3</element>
+          <element units="Celsius" type="delta_t">1.9</element>
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element units="Celsius" type="air_temperature">11.1</element>
+          <element units="Celsius" type="dew_point">7.2</element>
+          <element units="%" type="rel-humidity">77</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">316</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">9.6</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:31:00+00:00" time-local="2022-06-04T12:31:00+10:00">14.0</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:17:00+00:00" time-local="2022-06-04T08:17:00+10:00">4.6</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T14:40:00+00:00" time-local="2022-06-04T00:40:00+10:00">21</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T14:40:00+00:00" time-local="2022-06-04T00:40:00+10:00">39</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T14:40:00+00:00" time-local="2022-06-04T00:40:00+10:00">NNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95966" bom-id="091311" tz="Australia/Hobart" stn-name="LAUNCESTON AIRPORT" stn-height="166.90" type="AWS" lat="-41.5476" lon="147.2156" forecast-district-id="TAS_PW004" description="Launceston Airport">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.6</element>
+          <element type="cloud">Mostly clear</element>
+          <element type="cloud_oktas">1</element>
+          <element units="Celsius" type="delta_t">1.9</element>
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element units="Celsius" type="air_temperature">10.1</element>
+          <element units="Celsius" type="dew_point">6.1</element>
+          <element units="hPa" type="pres">1001.2</element>
+          <element units="hPa" type="msl_pres">1001.2</element>
+          <element units="hPa" type="qnh_pres">1000.9</element>
+          <element units="%" type="rel-humidity">76</element>
+          <element units="km" type="vis_km">58</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">338</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">9.6</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:11:00+00:00" time-local="2022-06-04T12:11:00+10:00">12.9</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T20:52:00+00:00" time-local="2022-06-04T06:52:00+10:00">4.8</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T15:06:00+00:00" time-local="2022-06-04T01:06:00+10:00">22</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T15:06:00+00:00" time-local="2022-06-04T01:06:00+10:00">41</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T15:06:00+00:00" time-local="2022-06-04T01:06:00+10:00">NNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95969" bom-id="091306" tz="Australia/Hobart" stn-name="CRESSY RESEARCH STATION" stn-height="148.00" type="AWS" lat="-41.7256" lon="147.0794" forecast-district-id="TAS_PW004" description="Cressy">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">4.8</element>
+          <element units="Celsius" type="delta_t">1.4</element>
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element units="Celsius" type="air_temperature">10.0</element>
+          <element units="Celsius" type="dew_point">7.1</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">344</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">5.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:46:00+00:00" time-local="2022-06-04T12:46:00+10:00">11.9</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:20:00+00:00" time-local="2022-06-04T07:20:00+10:00">4.8</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T15:16:00+00:00" time-local="2022-06-04T01:16:00+10:00">21</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T15:16:00+00:00" time-local="2022-06-04T01:16:00+10:00">39</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T15:16:00+00:00" time-local="2022-06-04T01:16:00+10:00">NNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94960" bom-id="094195" tz="Australia/Hobart" stn-name="TUNNACK FIRE STATION" stn-height="461.50" type="AWS" lat="-42.4543" lon="147.4612" forecast-district-id="TAS_PW005" description="Tunnack">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.0</element>
+          <element units="Celsius" type="delta_t">1.2</element>
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element units="Celsius" type="air_temperature">8.1</element>
+          <element units="Celsius" type="dew_point">5.6</element>
+          <element units="hPa" type="pres">1000.4</element>
+          <element units="hPa" type="msl_pres">1000.4</element>
+          <element units="hPa" type="qnh_pres">999.6</element>
+          <element units="%" type="rel-humidity">84</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">352</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T03:14:00+00:00" time-local="2022-06-04T13:14:00+10:00">10.5</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:27:00+00:00" time-local="2022-06-04T08:27:00+10:00">1.5</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T14:23:00+00:00" time-local="2022-06-04T00:23:00+10:00">22</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T14:23:00+00:00" time-local="2022-06-04T00:23:00+10:00">41</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T14:23:00+00:00" time-local="2022-06-04T00:23:00+10:00">NNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95977" bom-id="094220" tz="Australia/Hobart" stn-name="GROVE (RESEARCH STATION)" stn-height="65.00" type="AWS" lat="-42.9844" lon="147.0756" forecast-district-id="TAS_PW006" description="Grove">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">9.0</element>
+          <element units="Celsius" type="delta_t">1.1</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">9.6</element>
+          <element units="Celsius" type="dew_point">7.2</element>
+          <element units="%" type="rel-humidity">85</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:00:00+00:00" time-local="2022-06-04T12:00:00+10:00">13.5</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T20:55:00+00:00" time-local="2022-06-04T06:55:00+10:00">2.4</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-04T02:06:00+00:00" time-local="2022-06-04T12:06:00+10:00">14</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-04T02:06:00+00:00" time-local="2022-06-04T12:06:00+10:00">26</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-04T02:06:00+00:00" time-local="2022-06-04T12:06:00+10:00">NNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94977" bom-id="094191" tz="Australia/Hobart" stn-name="HARTZ MOUNTAIN (KEOGHS PIMPLE)" stn-height="831.00" type="AWS" lat="-43.2006" lon="146.7683" forecast-district-id="TAS_PW006" description="Hartz Mountains">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">0.5</element>
+          <element units="Celsius" type="delta_t">0.2</element>
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element units="Celsius" type="air_temperature">3.2</element>
+          <element units="Celsius" type="dew_point">2.8</element>
+          <element units="%" type="rel-humidity">97</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">275</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">3.2</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">3.4</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T04:22:00+00:00" time-local="2022-06-04T14:22:00+10:00">5.2</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:37:00+00:00" time-local="2022-06-04T08:37:00+10:00">3.0</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T19:22:00+00:00" time-local="2022-06-04T05:22:00+10:00">31</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T19:22:00+00:00" time-local="2022-06-04T05:22:00+10:00">57</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T19:22:00+00:00" time-local="2022-06-04T05:22:00+10:00">W</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94951" bom-id="094254" tz="Australia/Hobart" stn-name="DUNALLEY (STROUD POINT)" stn-height="12.43" type="AWS" lat="-42.9017" lon="147.7894" forecast-district-id="TAS_PW006" description="Dunalley">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">9.2</element>
+          <element units="Celsius" type="delta_t">2.4</element>
+          <element units="km/h" type="gust_kmh">4</element>
+          <element units="knots" type="wind_gust_spd">2</element>
+          <element units="Celsius" type="air_temperature">10.9</element>
+          <element units="Celsius" type="dew_point">5.8</element>
+          <element units="%" type="rel-humidity">71</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">296</element>
+          <element units="km/h" type="wind_spd_kmh">4</element>
+          <element units="knots" type="wind_spd">2</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T03:29:00+00:00" time-local="2022-06-04T13:29:00+10:00">14.6</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:00:00+00:00" time-local="2022-06-04T08:00:00+10:00">9.3</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-04T00:26:00+00:00" time-local="2022-06-04T10:26:00+10:00">17</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-04T00:26:00+00:00" time-local="2022-06-04T10:26:00+10:00">32</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-04T00:26:00+00:00" time-local="2022-06-04T10:26:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94988" bom-id="094255" tz="Australia/Hobart" stn-name="DENNES POINT" stn-height="5.67" type="AWS" lat="-43.0639" lon="147.3567" forecast-district-id="TAS_PW006" description="Dennes Point">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">9.3</element>
+          <element units="Celsius" type="delta_t">2.1</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">10.3</element>
+          <element units="Celsius" type="dew_point">5.8</element>
+          <element units="%" type="rel-humidity">73</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T00:29:00+00:00" time-local="2022-06-04T10:29:00+10:00">13.2</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T19:45:00+00:00" time-local="2022-06-04T05:45:00+10:00">8.6</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T14:50:00+00:00" time-local="2022-06-04T00:50:00+10:00">16</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T14:50:00+00:00" time-local="2022-06-04T00:50:00+10:00">30</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T14:50:00+00:00" time-local="2022-06-04T00:50:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94964" bom-id="095003" tz="Australia/Hobart" stn-name="BUSHY PARK (BUSHY PARK ESTATES)" stn-height="27.00" type="AWS" lat="-42.7097" lon="146.8983" forecast-district-id="TAS_PW007" description="Bushy Park">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">8.8</element>
+          <element units="Celsius" type="delta_t">1.6</element>
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element units="Celsius" type="air_temperature">10.7</element>
+          <element units="Celsius" type="dew_point">7.4</element>
+          <element units="%" type="rel-humidity">80</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">344</element>
+          <element units="km/h" type="wind_spd_kmh">7</element>
+          <element units="knots" type="wind_spd">4</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:18:00+00:00" time-local="2022-06-04T12:18:00+10:00">13.8</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T19:51:00+00:00" time-local="2022-06-04T05:51:00+10:00">2.3</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T16:57:00+00:00" time-local="2022-06-04T02:57:00+10:00">10</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T16:57:00+00:00" time-local="2022-06-04T02:57:00+10:00">19</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T16:57:00+00:00" time-local="2022-06-04T02:57:00+10:00">SW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94959" bom-id="096003" tz="Australia/Hobart" stn-name="BUTLERS GORGE" stn-height="667.00" type="AWS" lat="-42.2753" lon="146.2758" forecast-district-id="TAS_PW008" description="Butlers Gorge">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">2.1</element>
+          <element units="Celsius" type="delta_t">1.2</element>
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element units="Celsius" type="air_temperature">5.1</element>
+          <element units="Celsius" type="dew_point">2.3</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">342</element>
+          <element units="km/h" type="wind_spd_kmh">7</element>
+          <element units="knots" type="wind_spd">4</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.2</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">5.8</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:44:00+00:00" time-local="2022-06-04T12:44:00+10:00">7.5</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:09:00+00:00" time-local="2022-06-04T08:09:00+10:00">2.9</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-04T01:52:00+00:00" time-local="2022-06-04T11:52:00+10:00">14</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-04T01:52:00+00:00" time-local="2022-06-04T11:52:00+10:00">26</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-04T01:52:00+00:00" time-local="2022-06-04T11:52:00+10:00">WNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95952" bom-id="097085" tz="Australia/Hobart" stn-name="MOUNT READ" stn-height="1119.50" type="AWS" lat="-41.8444" lon="145.5417" forecast-district-id="TAS_PW009" description="Mount Read">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-4.9</element>
+          <element units="Celsius" type="delta_t">0.0</element>
+          <element units="km/h" type="gust_kmh">33</element>
+          <element units="knots" type="wind_gust_spd">18</element>
+          <element units="Celsius" type="air_temperature">2.1</element>
+          <element units="Celsius" type="dew_point">2.1</element>
+          <element units="hPa" type="pres">999.3</element>
+          <element units="hPa" type="msl_pres">999.3</element>
+          <element units="%" type="rel-humidity">100</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">4</element>
+          <element units="km/h" type="wind_spd_kmh">28</element>
+          <element units="knots" type="wind_spd">15</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">3.2</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">31.8</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T05:13:00+00:00" time-local="2022-06-04T15:13:00+10:00">2.8</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T20:41:00+00:00" time-local="2022-06-04T06:41:00+10:00">1.4</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T21:03:00+00:00" time-local="2022-06-04T07:03:00+10:00">29</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T21:03:00+00:00" time-local="2022-06-04T07:03:00+10:00">54</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T21:03:00+00:00" time-local="2022-06-04T07:03:00+10:00">WNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95958" bom-id="097083" tz="Australia/Hobart" stn-name="SCOTTS PEAK DAM" stn-height="408.00" type="AWS" lat="-43.0425" lon="146.2722" forecast-district-id="TAS_PW009" description="Scotts Peak">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">3.7</element>
+          <element units="Celsius" type="delta_t">0.5</element>
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element units="Celsius" type="air_temperature">6.8</element>
+          <element units="Celsius" type="dew_point">5.7</element>
+          <element units="%" type="rel-humidity">93</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">9</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">1.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">11.8</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T04:25:00+00:00" time-local="2022-06-04T14:25:00+10:00">10.2</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T22:03:00+00:00" time-local="2022-06-04T08:03:00+10:00">5.5</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T18:05:00+00:00" time-local="2022-06-04T04:05:00+10:00">37</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T18:05:00+00:00" time-local="2022-06-04T04:05:00+10:00">69</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T18:05:00+00:00" time-local="2022-06-04T04:05:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95962" bom-id="097024" tz="Australia/Hobart" stn-name="WARRA" stn-height="495.00" type="AWS" lat="-43.0609" lon="146.7040" forecast-district-id="TAS_PW009" description="Warra">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.0</element>
+          <element units="Celsius" type="delta_t">0.5</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">6.1</element>
+          <element units="Celsius" type="dew_point">4.9</element>
+          <element units="%" type="rel-humidity">92</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.2</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">2.4</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T02:30:00+00:00" time-local="2022-06-04T12:30:00+10:00">9.0</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:52:00+00:00" time-local="2022-06-04T07:52:00+10:00">5.1</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T18:59:00+00:00" time-local="2022-06-04T04:59:00+10:00">26</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T18:59:00+00:00" time-local="2022-06-04T04:59:00+10:00">48</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T18:59:00+00:00" time-local="2022-06-04T04:59:00+10:00">N</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95954" bom-id="091331" tz="Australia/Hobart" stn-name="CAPE GRIM" stn-height="86.00" type="AWS" lat="-40.6764" lon="144.6922" forecast-district-id="TAS_PW010" description="Cape Grim">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">3.9</element>
+          <element type="cloud">Mostly clear</element>
+          <element type="cloud_oktas">1</element>
+          <element units="Celsius" type="delta_t">1.4</element>
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element units="Celsius" type="air_temperature">10.2</element>
+          <element units="Celsius" type="dew_point">7.3</element>
+          <element units="hPa" type="pres">1001.2</element>
+          <element units="hPa" type="msl_pres">1001.2</element>
+          <element units="hPa" type="qnh_pres">1000.4</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">1.6</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">9.8</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-03T23:12:00+00:00" time-local="2022-06-04T09:12:00+10:00">12.3</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T13:27:00+00:00" time-local="2022-06-03T23:27:00+10:00">10.1</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T16:00:00+00:00" time-local="2022-06-04T02:00:00+10:00">29</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T16:00:00+00:00" time-local="2022-06-04T02:00:00+10:00">54</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95957" bom-id="091107" tz="Australia/Hobart" stn-name="WYNYARD AIRPORT" stn-height="12.00" type="AWS" lat="-40.9964" lon="145.7311" forecast-district-id="TAS_PW010" description="Wynyard">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">9.3</element>
+          <element type="cloud">Mostly clear</element>
+          <element type="cloud_oktas">1</element>
+          <element units="Celsius" type="delta_t">0.9</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">9.8</element>
+          <element units="Celsius" type="dew_point">7.9</element>
+          <element units="hPa" type="pres">1000.9</element>
+          <element units="hPa" type="msl_pres">1000.9</element>
+          <element units="hPa" type="qnh_pres">1000.9</element>
+          <element units="%" type="rel-humidity">88</element>
+          <element units="km" type="vis_km">75</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">1.6</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">13.2</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T03:52:00+00:00" time-local="2022-06-04T13:52:00+10:00">12.5</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T20:10:00+00:00" time-local="2022-06-04T06:10:00+10:00">2.3</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T14:06:00+00:00" time-local="2022-06-04T00:06:00+10:00">23</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T14:06:00+00:00" time-local="2022-06-04T00:06:00+10:00">43</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T14:06:00+00:00" time-local="2022-06-04T00:06:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95963" bom-id="091344" tz="Australia/Hobart" stn-name="BURNIE NTC AWS" stn-height="0.00" type="AWS" lat="-41.0500" lon="145.9149" forecast-district-id="TAS_MW002" description="Burnie Port">
+      <period index="0" time-utc="2022-06-04T06:00:00+00:00" time-local="2022-06-04T16:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">9</element>
+          <element units="knots" type="wind_gust_spd">5</element>
+          <element units="Celsius" type="air_temperature">10.3</element>
+          <element units="hPa" type="pres">1000.9</element>
+          <element units="hPa" type="msl_pres">1000.9</element>
+          <element units="hPa" type="qnh_pres">1000.9</element>
+          <element type="wind_dir">SSW</element>
+          <element units="deg" type="wind_dir_deg">213</element>
+          <element units="km/h" type="wind_spd_kmh">7</element>
+          <element units="knots" type="wind_spd">4</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95956" bom-id="091259" tz="Australia/Hobart" stn-name="LUNCHEON HILL (FORESTRY)" stn-height="344.00" type="AWS" lat="-41.1492" lon="145.1517" forecast-district-id="TAS_PW010" description="Luncheon Hill">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">4.7</element>
+          <element units="Celsius" type="delta_t">0.0</element>
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element units="Celsius" type="air_temperature">8.0</element>
+          <element units="Celsius" type="dew_point">8.0</element>
+          <element units="%" type="rel-humidity">100</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">1</element>
+          <element units="km/h" type="wind_spd_kmh">15</element>
+          <element units="knots" type="wind_spd">8</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.8</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">12.8</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T05:03:00+00:00" time-local="2022-06-04T15:03:00+10:00">9.6</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:34:00+00:00" time-local="2022-06-04T07:34:00+10:00">5.8</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T22:33:00+00:00" time-local="2022-06-04T08:33:00+10:00">18</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T22:33:00+00:00" time-local="2022-06-04T08:33:00+10:00">33</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T22:33:00+00:00" time-local="2022-06-04T08:33:00+10:00">W</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95960" bom-id="091126" tz="Australia/Hobart" stn-name="DEVONPORT AIRPORT" stn-height="8.00" type="AWS" lat="-41.1701" lon="146.4289" forecast-district-id="TAS_PW010" description="Devonport Airport">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">8.6</element>
+          <element type="cloud">Mostly clear</element>
+          <element type="cloud_oktas">1</element>
+          <element units="Celsius" type="delta_t">1.9</element>
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element units="Celsius" type="air_temperature">11.0</element>
+          <element units="Celsius" type="dew_point">7.1</element>
+          <element units="hPa" type="pres">1001.3</element>
+          <element units="hPa" type="msl_pres">1001.3</element>
+          <element units="hPa" type="qnh_pres">1001.3</element>
+          <element units="%" type="rel-humidity">77</element>
+          <element units="km" type="vis_km">71</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">190</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.4</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">7.0</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T04:24:00+00:00" time-local="2022-06-04T14:24:00+10:00">13.1</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:33:00+00:00" time-local="2022-06-04T07:33:00+10:00">5.2</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T15:31:00+00:00" time-local="2022-06-04T01:31:00+10:00">34</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T15:31:00+00:00" time-local="2022-06-04T01:31:00+10:00">63</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T15:31:00+00:00" time-local="2022-06-04T01:31:00+10:00">NNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94955" bom-id="091291" tz="Australia/Hobart" stn-name="SHEFFIELD SCHOOL FARM" stn-height="294.20" type="AWS" lat="-41.3886" lon="146.3219" forecast-district-id="TAS_PW010" description="Sheffield">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.1</element>
+          <element units="Celsius" type="delta_t">0.5</element>
+          <element units="km/h" type="gust_kmh">4</element>
+          <element units="knots" type="wind_gust_spd">2</element>
+          <element units="Celsius" type="air_temperature">6.8</element>
+          <element units="Celsius" type="dew_point">5.7</element>
+          <element units="hPa" type="pres">1000.8</element>
+          <element units="hPa" type="msl_pres">1000.8</element>
+          <element units="%" type="rel-humidity">93</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">339</element>
+          <element units="km/h" type="wind_spd_kmh">4</element>
+          <element units="knots" type="wind_spd">2</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">1.6</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">16.8</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T01:55:00+00:00" time-local="2022-06-04T11:55:00+10:00">10.9</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:38:00+00:00" time-local="2022-06-04T07:38:00+10:00">3.0</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-04T05:01:00+00:00" time-local="2022-06-04T15:01:00+10:00">14</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-04T05:01:00+00:00" time-local="2022-06-04T15:01:00+10:00">26</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-04T05:01:00+00:00" time-local="2022-06-04T15:01:00+10:00">NNW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94850" bom-id="098017" tz="Australia/Hobart" stn-name="KING ISLAND AIRPORT" stn-height="35.42" type="AWS" lat="-39.8804" lon="143.8857" forecast-district-id="TAS_PW011" description="King Island Airport">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.1</element>
+          <element type="cloud">Mostly clear</element>
+          <element type="cloud_oktas">1</element>
+          <element units="Celsius" type="delta_t">0.2</element>
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element units="Celsius" type="air_temperature">9.5</element>
+          <element units="Celsius" type="dew_point">9.0</element>
+          <element units="hPa" type="pres">1001.6</element>
+          <element units="hPa" type="msl_pres">1001.6</element>
+          <element units="hPa" type="qnh_pres">1001.5</element>
+          <element units="%" type="rel-humidity">97</element>
+          <element units="km" type="vis_km">24</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">309</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">4.4</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">6.8</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T04:13:00+00:00" time-local="2022-06-04T14:13:00+10:00">14.1</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:00:00+00:00" time-local="2022-06-04T07:00:00+10:00">9.9</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-04T04:21:00+00:00" time-local="2022-06-04T14:21:00+10:00">45</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-04T04:21:00+00:00" time-local="2022-06-04T14:21:00+10:00">83</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-04T04:21:00+00:00" time-local="2022-06-04T14:21:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89611" bom-id="300017" tz="Australia/Casey" stn-name="CASEY" stn-height="40.00" type="AWS" lat="-66.2825" lon="110.5231" forecast-district-id="TAS_FA001" description="Casey">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T14:10:00+08:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-19.4</element>
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element units="Celsius" type="air_temperature">-14.3</element>
+          <element units="Celsius" type="dew_point">-16.3</element>
+          <element units="hPa" type="pres">1001.1</element>
+          <element units="hPa" type="msl_pres">1001.1</element>
+          <element units="hPa" type="qnh_pres">1000.5</element>
+          <element units="%" type="rel-humidity">85</element>
+          <element type="wind_dir">ENE</element>
+          <element units="deg" type="wind_dir_deg">58</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2022-06-04T06:00:00+08:00" end-time-local="2022-06-04T21:00:00+08:00" start-time-utc="2022-06-03T22:00:00+00:00" end-time-utc="2022-06-04T13:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T05:53:00+00:00" time-local="2022-06-04T13:53:00+08:00">-13.9</element>
+          <element start-time-local="2022-06-03T18:00:00+08:00" end-time-local="2022-06-04T09:00:00+08:00" start-time-utc="2022-06-03T10:00:00+00:00" end-time-utc="2022-06-04T01:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T19:29:00+00:00" time-local="2022-06-04T03:29:00+08:00">-19.9</element>
+          <element start-time-local="2022-06-04T00:00:00+08:00" end-time-local="2022-06-05T00:00:00+08:00" start-time-utc="2022-06-03T16:00:00+00:00" end-time-utc="2022-06-04T16:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-04T03:16:00+00:00" time-local="2022-06-04T11:16:00+08:00">15</element>
+          <element start-time-local="2022-06-04T00:00:00+08:00" end-time-local="2022-06-05T00:00:00+08:00" start-time-utc="2022-06-03T16:00:00+00:00" end-time-utc="2022-06-04T16:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-04T03:16:00+00:00" time-local="2022-06-04T11:16:00+08:00">28</element>
+          <element start-time-local="2022-06-04T00:00:00+08:00" end-time-local="2022-06-05T00:00:00+08:00" start-time-utc="2022-06-03T16:00:00+00:00" end-time-utc="2022-06-04T16:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-04T03:16:00+00:00" time-local="2022-06-04T11:16:00+08:00">E</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89512" bom-id="989512" tz="UTC" stn-name="NOVOLAZAREVSKAJA" stn-height="102.00" type="Non-AWS" lat="-70.7667" lon="11.8333" forecast-district-id="TAS_FA001" description="Novolazarevskaja">
+      <period index="0" time-utc="2022-06-04T00:00:00+00:00" time-local="2022-06-04T00:00:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-21.6</element>
+          <element type="cloud">Mostly cloudy</element>
+          <element units="m" type="cloud_base_m">1500</element>
+          <element type="cloud_oktas">7</element>
+          <element type="cloud_type_id">35</element>
+          <element units="Celsius" type="air_temperature">-12.3</element>
+          <element units="Celsius" type="dew_point">-20.2</element>
+          <element units="hPa" type="pres">991.4</element>
+          <element units="hPa" type="msl_pres">991.4</element>
+          <element units="%" type="rel-humidity">52</element>
+          <element units="km" type="vis_km">20</element>
+          <element units="deg" type="wind_dir_deg">100</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89532" bom-id="989532" tz="UTC" stn-name="SYOWA" stn-height="25.50" type="Non-AWS" lat="-69.0053" lon="39.5811" forecast-district-id="TAS_FA001" description="Syowa">
+      <period index="0" time-utc="2022-06-04T03:00:00+00:00" time-local="2022-06-04T03:00:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-22.5</element>
+          <element type="cloud">Mostly cloudy</element>
+          <element type="cloud_oktas">7</element>
+          <element type="cloud_type_id">35</element>
+          <element units="Celsius" type="air_temperature">-18.5</element>
+          <element units="Celsius" type="dew_point">-22.0</element>
+          <element units="hPa" type="pres">990.6</element>
+          <element units="hPa" type="msl_pres">990.6</element>
+          <element units="%" type="rel-humidity">74</element>
+          <element units="km" type="vis_km">20</element>
+          <element type="wind_dir">NNE</element>
+          <element units="deg" type="wind_dir_deg">30</element>
+          <element units="km/h" type="wind_spd_kmh">2</element>
+          <element units="knots" type="wind_spd">1</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94998" bom-id="300004" tz="Australia/Hobart" stn-name="MACQUARIE ISLAND" stn-height="6.00" type="AWS" lat="-54.4994" lon="158.9369" forecast-district-id="TAS_FA001" description="Macquarie Island">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T16:10:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-2.1</element>
+          <element units="Celsius" type="delta_t">1.7</element>
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element units="Celsius" type="air_temperature">2.6</element>
+          <element units="Celsius" type="dew_point">-2.1</element>
+          <element units="hPa" type="pres">1001.1</element>
+          <element units="hPa" type="msl_pres">1001.1</element>
+          <element units="hPa" type="qnh_pres">1000.8</element>
+          <element units="%" type="rel-humidity">71</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">275</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T16:11:00+10:00" duration="431" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T06:11:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">7.2</element>
+          <element start-time-local="2022-06-04T06:00:00+10:00" end-time-local="2022-06-04T21:00:00+10:00" start-time-utc="2022-06-03T20:00:00+00:00" end-time-utc="2022-06-04T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T01:42:00+00:00" time-local="2022-06-04T11:42:00+10:00">4.3</element>
+          <element start-time-local="2022-06-03T18:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" start-time-utc="2022-06-03T08:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T21:52:00+00:00" time-local="2022-06-04T07:52:00+10:00">2.4</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T22:15:00+00:00" time-local="2022-06-04T08:15:00+10:00">23</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T22:15:00+00:00" time-local="2022-06-04T08:15:00+10:00">43</element>
+          <element start-time-local="2022-06-04T00:00:00+10:00" end-time-local="2022-06-05T00:00:00+10:00" start-time-utc="2022-06-03T14:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T22:15:00+00:00" time-local="2022-06-04T08:15:00+10:00">W</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89615" bom-id="300050" tz="UTC" stn-name="WILKINS RUNWAY EAST" stn-height="753.00" type="AWS" lat="-66.6831" lon="111.5317" forecast-district-id="TAS_FA001" description="Wilkins Runway">
+      <period index="0" time-utc="2022-06-02T11:00:00+00:00" time-local="2022-06-02T11:00:00+00:00" wind-src="metar">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-31.4</element>
+          <element units="km/h" type="gust_kmh">63</element>
+          <element units="knots" type="wind_gust_spd">34</element>
+          <element units="Celsius" type="air_temperature">-17.2</element>
+          <element units="Celsius" type="dew_point">-20.2</element>
+          <element units="hPa" type="pres">982.4</element>
+          <element units="hPa" type="qnh_pres">982.4</element>
+          <element units="%" type="rel-humidity">77</element>
+          <element type="wind_dir">ENE</element>
+          <element units="deg" type="wind_dir_deg">60</element>
+          <element units="km/h" type="wind_spd_kmh">56</element>
+          <element units="knots" type="wind_spd">30</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89571" bom-id="300000" tz="Australia/Davis" stn-name="DAVIS" stn-height="18.00" type="AWS" lat="-68.5744" lon="77.9672" forecast-district-id="TAS_FA001" description="Davis">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T13:10:00+07:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-21.8</element>
+          <element units="km/h" type="gust_kmh">72</element>
+          <element units="knots" type="wind_gust_spd">39</element>
+          <element units="Celsius" type="air_temperature">-6.2</element>
+          <element units="Celsius" type="dew_point">-7.4</element>
+          <element units="hPa" type="pres">975.6</element>
+          <element units="hPa" type="msl_pres">975.6</element>
+          <element units="hPa" type="qnh_pres">975.3</element>
+          <element units="%" type="rel-humidity">91</element>
+          <element units="km" type="vis_km">0.8</element>
+          <element type="wind_dir">NE</element>
+          <element units="deg" type="wind_dir_deg">37</element>
+          <element units="km/h" type="wind_spd_kmh">67</element>
+          <element units="knots" type="wind_spd">36</element>
+          <element start-time-local="2022-06-04T06:00:00+07:00" end-time-local="2022-06-04T21:00:00+07:00" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T14:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T05:57:00+00:00" time-local="2022-06-04T12:57:00+07:00">-5.8</element>
+          <element start-time-local="2022-06-03T18:00:00+07:00" end-time-local="2022-06-04T09:00:00+07:00" start-time-utc="2022-06-03T11:00:00+00:00" end-time-utc="2022-06-04T02:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T11:01:00+00:00" time-local="2022-06-03T18:01:00+07:00">-12.0</element>
+          <element start-time-local="2022-06-04T00:00:00+07:00" end-time-local="2022-06-05T00:00:00+07:00" start-time-utc="2022-06-03T17:00:00+00:00" end-time-utc="2022-06-04T17:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-04T02:21:00+00:00" time-local="2022-06-04T09:21:00+07:00">63</element>
+          <element start-time-local="2022-06-04T00:00:00+07:00" end-time-local="2022-06-05T00:00:00+07:00" start-time-utc="2022-06-03T17:00:00+00:00" end-time-utc="2022-06-04T17:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-04T02:21:00+00:00" time-local="2022-06-04T09:21:00+07:00">117</element>
+          <element start-time-local="2022-06-04T00:00:00+07:00" end-time-local="2022-06-05T00:00:00+07:00" start-time-utc="2022-06-03T17:00:00+00:00" end-time-utc="2022-06-04T17:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-04T02:21:00+00:00" time-local="2022-06-04T09:21:00+07:00">NE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89642" bom-id="989642" tz="UTC" stn-name="DUMONT D URVILLE" stn-height="43.00" type="Non-AWS" lat="-66.6631" lon="140.0011" forecast-district-id="TAS_FA001" description="Dumont D'urville">
+      <period index="0" time-utc="2022-06-04T03:00:00+00:00" time-local="2022-06-04T03:00:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-18.1</element>
+          <element type="cloud">Mostly cloudy</element>
+          <element units="m" type="cloud_base_m">1000</element>
+          <element type="cloud_oktas">6</element>
+          <element type="cloud_type_id">35</element>
+          <element units="Celsius" type="air_temperature">-10.9</element>
+          <element units="Celsius" type="dew_point">-16.6</element>
+          <element units="hPa" type="pres">990.7</element>
+          <element units="hPa" type="msl_pres">990.7</element>
+          <element units="%" type="rel-humidity">63</element>
+          <element units="km" type="vis_km">50</element>
+          <element type="wind_dir">ESE</element>
+          <element units="deg" type="wind_dir_deg">110</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89767" bom-id="300039" tz="UTC" stn-name="G3" stn-height="84.00" type="AWS" lat="-70.8919" lon="69.8725" forecast-district-id="TAS_FA001" description="Amery">
+      <period index="0" time-utc="2022-06-04T03:00:00+00:00" time-local="2022-06-04T03:00:00+00:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="air_temperature">-24.7</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89564" bom-id="300001" tz="Australia/Mawson" stn-name="MAWSON" stn-height="9.90" type="AWS" lat="-67.6017" lon="62.8753" forecast-district-id="TAS_FA001" description="Mawson">
+      <period index="0" time-utc="2022-06-04T06:10:00+00:00" time-local="2022-06-04T12:10:00+06:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-34.6</element>
+          <element units="km/h" type="gust_kmh">89</element>
+          <element units="knots" type="wind_gust_spd">48</element>
+          <element units="Celsius" type="air_temperature">-15.3</element>
+          <element units="Celsius" type="dew_point">-24.3</element>
+          <element units="hPa" type="pres">978.4</element>
+          <element units="hPa" type="msl_pres">978.4</element>
+          <element units="hPa" type="qnh_pres">978.2</element>
+          <element units="%" type="rel-humidity">46</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">158</element>
+          <element units="km/h" type="wind_spd_kmh">82</element>
+          <element units="knots" type="wind_spd">44</element>
+          <element start-time-local="2022-06-04T06:00:00+06:00" end-time-local="2022-06-04T21:00:00+06:00" start-time-utc="2022-06-04T00:00:00+00:00" end-time-utc="2022-06-04T15:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2022-06-04T04:26:00+00:00" time-local="2022-06-04T10:26:00+06:00">-14.8</element>
+          <element start-time-local="2022-06-03T18:00:00+06:00" end-time-local="2022-06-04T09:00:00+06:00" start-time-utc="2022-06-03T12:00:00+00:00" end-time-utc="2022-06-04T03:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2022-06-03T23:55:00+00:00" time-local="2022-06-04T05:55:00+06:00">-16.5</element>
+          <element start-time-local="2022-06-04T00:00:00+06:00" end-time-local="2022-06-05T00:00:00+06:00" start-time-utc="2022-06-03T18:00:00+00:00" end-time-utc="2022-06-04T18:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2022-06-03T19:27:00+00:00" time-local="2022-06-04T01:27:00+06:00">72</element>
+          <element start-time-local="2022-06-04T00:00:00+06:00" end-time-local="2022-06-05T00:00:00+06:00" start-time-utc="2022-06-03T18:00:00+00:00" end-time-utc="2022-06-04T18:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2022-06-03T19:27:00+00:00" time-local="2022-06-04T01:27:00+06:00">133</element>
+          <element start-time-local="2022-06-04T00:00:00+06:00" end-time-local="2022-06-05T00:00:00+06:00" start-time-utc="2022-06-03T18:00:00+00:00" end-time-utc="2022-06-04T18:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2022-06-03T19:27:00+00:00" time-local="2022-06-04T01:27:00+06:00">SSE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89664" bom-id="989664" tz="UTC" stn-name="MCMURDO" stn-height="24.00" type="Non-AWS" lat="-77.8500" lon="166.6667" forecast-district-id="TAS_FA001" description="McMurdo">
+      <period index="0" time-utc="2022-06-04T00:00:00+00:00" time-local="2022-06-04T00:00:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-34.2</element>
+          <element type="cloud">Mostly cloudy</element>
+          <element units="m" type="cloud_base_m">600</element>
+          <element type="cloud_oktas">7</element>
+          <element type="cloud_type_id">36</element>
+          <element units="Celsius" type="air_temperature">-24.7</element>
+          <element units="Celsius" type="dew_point">-28.3</element>
+          <element units="hPa" type="pres">1002.9</element>
+          <element units="hPa" type="msl_pres">1002.9</element>
+          <element units="%" type="rel-humidity">72</element>
+          <element units="km" type="vis_km">6</element>
+          <element type="weather">Mist</element>
+          <element type="wind_dir">ENE</element>
+          <element units="deg" type="wind_dir_deg">70</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89592" bom-id="989592" tz="UTC" stn-name="MIRNYJ" stn-height="35.00" type="Non-AWS" lat="-66.5500" lon="93.0167" forecast-district-id="TAS_FA001" description="Mirnyj">
+      <period index="0" time-utc="2022-06-04T00:00:00+00:00" time-local="2022-06-04T00:00:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-29.5</element>
+          <element type="cloud">Mostly cloudy</element>
+          <element units="m" type="cloud_base_m">200</element>
+          <element type="cloud_oktas">7</element>
+          <element type="cloud_type_id">33</element>
+          <element units="Celsius" type="air_temperature">-11.8</element>
+          <element units="Celsius" type="dew_point">-13.2</element>
+          <element units="hPa" type="pres">992.8</element>
+          <element units="hPa" type="msl_pres">992.8</element>
+          <element units="%" type="rel-humidity">89</element>
+          <element units="km" type="vis_km">0.2</element>
+          <element type="weather">Snow showers</element>
+          <element type="wind_dir">E</element>
+          <element units="deg" type="wind_dir_deg">80</element>
+          <element units="km/h" type="wind_spd_kmh">76</element>
+          <element units="knots" type="wind_spd">41</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99138" bom-id="250090" tz="Australia/Hobart" stn-name="TAS FIRE SERVICE PORTABLE B" stn-height="171.00" type="Non-AWS" lat="-43.0764" lon="147.7212" forecast-district-id="TAS_FA001" description="TFS B">
+      <period index="0" time-utc="2022-06-04T05:30:00+00:00" time-local="2022-06-04T15:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.7</element>
+          <element units="Celsius" type="air_temperature">10.3</element>
+          <element units="Celsius" type="dew_point">6.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">79</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T15:30:00+10:00" duration="390" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T05:30:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99954" bom-id="250142" tz="Australia/Hobart" stn-name="PORTABLE TAS AWS 6 (TFS)" stn-height="253.00" type="AWS" lat="-41.6024" lon="148.0636" forecast-district-id="TAS_FA001" description="TFS F (Fingal)">
+      <period index="0" time-utc="2022-06-04T05:50:00+00:00" time-local="2022-06-04T15:50:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">8.6</element>
+          <element units="Celsius" type="delta_t">3.0</element>
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element units="Celsius" type="air_temperature">11.8</element>
+          <element units="Celsius" type="dew_point">5.3</element>
+          <element units="hPa" type="pres">970.4</element>
+          <element units="hPa" type="qnh_pres">970.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">64</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">320</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T15:50:00+10:00" duration="410" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T05:50:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99141" bom-id="250093" tz="Australia/Hobart" stn-name="TAS PARKS WILDLIFE PORTABLE B" stn-height="35.00" type="Non-AWS" lat="-42.6368" lon="145.9087" forecast-district-id="TAS_FA001" description="PWS B">
+      <period index="0" time-utc="2022-06-04T05:50:00+00:00" time-local="2022-06-04T15:50:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.6</element>
+          <element units="Celsius" type="air_temperature">9.7</element>
+          <element units="Celsius" type="dew_point">8.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">92</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T15:50:00+10:00" duration="410" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T05:50:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99142" bom-id="250094" tz="Australia/Hobart" stn-name="TAS PARKS WILDLIFE PORTABLE C" stn-height="25.00" type="Non-AWS" lat="-43.4167" lon="146.1509" forecast-district-id="TAS_FA001" description="PWS C">
+      <period index="0" time-utc="2022-06-04T05:50:00+00:00" time-local="2022-06-04T15:50:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">7.5</element>
+          <element units="Celsius" type="delta_t">2.3</element>
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element units="Celsius" type="air_temperature">10.3</element>
+          <element units="Celsius" type="dew_point">5.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">70</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">360</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T15:50:00+10:00" duration="410" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T05:50:00+00:00" units="mm" type="rainfall">2.8</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">21.4</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99148" bom-id="250107" tz="Australia/Hobart" stn-name="TAS PARKS WILDLIFE PORTABLE D" stn-height="50.00" type="Non-AWS" lat="-43.1454" lon="145.9480" forecast-district-id="TAS_FA001" description="Davey Gorge (PWS)">
+      <period index="0" time-utc="2022-06-04T05:30:00+00:00" time-local="2022-06-04T15:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">7.5</element>
+          <element units="Celsius" type="delta_t">0.8</element>
+          <element units="km/h" type="gust_kmh">6</element>
+          <element units="knots" type="wind_gust_spd">3</element>
+          <element units="Celsius" type="air_temperature">9.2</element>
+          <element units="Celsius" type="dew_point">7.6</element>
+          <element units="hPa" type="pres">989.6</element>
+          <element units="hPa" type="qnh_pres">989.6</element>
+          <element units="mm" type="rain_hour">0.4</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">90</element>
+          <element type="wind_dir">SSW</element>
+          <element units="deg" type="wind_dir_deg">210</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T15:30:00+10:00" duration="390" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T05:30:00+00:00" units="mm" type="rainfall">1.4</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">19.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99151" bom-id="250113" tz="Australia/Hobart" stn-name="TAS PARKS WILDLIFE PORTABLE F" stn-height="253.00" type="Non-AWS" lat="-41.5984" lon="145.9734" forecast-district-id="TAS_FA001" description="Dove River (PWS)">
+      <period index="0" time-utc="2022-06-04T05:50:00+00:00" time-local="2022-06-04T15:50:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-0.3</element>
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element units="Celsius" type="air_temperature">2.5</element>
+          <element units="Celsius" type="dew_point">2.2</element>
+          <element units="hPa" type="pres">998.2</element>
+          <element units="hPa" type="qnh_pres">998.2</element>
+          <element units="mm" type="rain_hour">0.6</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">98</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">310</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2022-06-04T09:00:00+10:00" end-time-local="2022-06-04T15:50:00+10:00" duration="410" start-time-utc="2022-06-03T23:00:00+00:00" end-time-utc="2022-06-04T05:50:00+00:00" units="mm" type="rainfall">1.4</element>
+          <element start-time-local="2022-06-03T09:00:00+10:00" end-time-local="2022-06-04T09:00:00+10:00" duration="1440" start-time-utc="2022-06-02T23:00:00+00:00" end-time-utc="2022-06-03T23:00:00+00:00" units="mm" type="rainfall_24hr">10.4</element>
+        </level>
+      </period>
+    </station>
+  </observations>
+</product>

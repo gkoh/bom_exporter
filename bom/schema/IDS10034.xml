@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>South Australia</region>
+            <office>SARO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDS10034</identifier>
+        <issue-time-utc>2022-03-29T06:02:13Z</issue-time-utc>
+        <issue-time-local tz="CDT">2022-03-29T16:32:13+10:30</issue-time-local>
+        <sent-time>2022-03-29T06:02:13Z</sent-time>
+        <expiry-time>2022-03-29T21:02:13Z</expiry-time>
+        <validity-bgn-time-local tz="CDT">2022-03-29T16:32:13+10:30</validity-bgn-time-local>
+        <validity-end-time-local tz="CST">2022-04-05T23:59:59+09:30</validity-end-time-local>
+        <next-routine-issue-time-utc>2022-03-29T18:50:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="CDT">2022-03-30T05:20:00+10:30</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FCT</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="SA_FA001" description="South Australia" type="region">
+            <forecast-period start-time-local="2022-03-29T16:32:13+10:30" end-time-local="2022-03-29T16:32:13+10:30" start-time-utc="2022-03-29T06:02:13Z" end-time-utc="2022-03-29T06:02:13Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_ME001" description="Adelaide" type="metropolitan" parent-aac="SA_FA001">
+            <forecast-period index="0" start-time-local="2022-03-29T17:00:00+10:30" end-time-local="2022-03-30T00:00:00+10:30" start-time-utc="2022-03-29T06:30:00Z" end-time-utc="2022-03-29T13:30:00Z">
+                <text type="forecast">Mostly clear. Winds southerly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2022-03-30T00:00:00+10:30" end-time-local="2022-03-31T00:00:00+10:30" start-time-utc="2022-03-29T13:30:00Z" end-time-utc="2022-03-30T13:30:00Z">
+                <text type="forecast">Cloudy. Slight (20%) chance of a shower about the hills and southern suburbs. Winds southerly 20 to 30 km/h reaching 30 to 40 km/h about the hills and southern suburbs in the evening.</text>
+                <text type="fire_danger">
+                    <p>Mount Lofty Ranges: High</p>
+                    <p>Adelaide Metropolitan: High</p>
+                </text>
+                <text type="uv_alert">Sun protection 10:20am to 4:20pm, UV Index predicted to reach 7 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2022-03-31T00:00:00+10:30" end-time-local="2022-04-01T00:00:00+10:30" start-time-utc="2022-03-30T13:30:00Z" end-time-utc="2022-03-31T13:30:00Z">
+                <text type="forecast">Partly cloudy. Winds southeasterly 20 to 35 km/h reaching 30 to 45 km/h about the hills and southern suburbs in the early morning and evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2022-04-01T00:00:00+10:30" end-time-local="2022-04-02T00:00:00+10:30" start-time-utc="2022-03-31T13:30:00Z" end-time-utc="2022-04-01T13:30:00Z">
+                <text type="forecast">Sunny. Winds southeasterly 20 to 30 km/h reaching 30 to 45 km/h in the early morning and evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2022-04-02T00:00:00+10:30" end-time-local="2022-04-03T00:00:00+10:30" start-time-utc="2022-04-01T13:30:00Z" end-time-utc="2022-04-02T13:30:00Z">
+                <text type="forecast">Sunny. Winds southeasterly 20 to 35 km/h decreasing to 15 to 20 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2022-04-03T00:00:00+10:30" end-time-local="2022-04-04T00:00:00+09:30" start-time-utc="2022-04-02T13:30:00Z" end-time-utc="2022-04-03T14:30:00Z">
+                <text type="forecast">Partly cloudy. Winds east to southeasterly 15 to 20 km/h tending southeast to southwesterly during the day.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2022-04-04T00:00:00+09:30" end-time-local="2022-04-05T00:00:00+09:30" start-time-utc="2022-04-03T14:30:00Z" end-time-utc="2022-04-04T14:30:00Z">
+                <text type="forecast">Mostly sunny. Winds southwesterly 15 to 20 km/h turning southeasterly later.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2022-04-05T00:00:00+09:30" end-time-local="2022-04-06T00:00:00+09:30" start-time-utc="2022-04-04T14:30:00Z" end-time-utc="2022-04-05T14:30:00Z">
+                <text type="forecast">Sunny. Winds east to southeasterly 15 to 20 km/h.</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT001" description="Adelaide" type="location" parent-aac="SA_ME001">
+            <forecast-period index="0" start-time-local="2022-03-29T17:00:00+10:30" end-time-local="2022-03-30T00:00:00+10:30" start-time-utc="2022-03-29T06:30:00Z" end-time-utc="2022-03-29T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <text type="precis">Mostly clear.</text>
+                <text type="probability_of_precipitation">5%</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2022-03-30T00:00:00+10:30" end-time-local="2022-03-31T00:00:00+10:30" start-time-utc="2022-03-29T13:30:00Z" end-time-utc="2022-03-30T13:30:00Z">
+                <element type="forecast_icon_code">4</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+                <text type="precis">Cloudy.</text>
+                <text type="probability_of_precipitation">10%</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2022-03-31T00:00:00+10:30" end-time-local="2022-04-01T00:00:00+10:30" start-time-utc="2022-03-30T13:30:00Z" end-time-utc="2022-03-31T13:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Partly cloudy.</text>
+                <text type="probability_of_precipitation">0%</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2022-04-01T00:00:00+10:30" end-time-local="2022-04-02T00:00:00+10:30" start-time-utc="2022-03-31T13:30:00Z" end-time-utc="2022-04-01T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Sunny.</text>
+                <text type="probability_of_precipitation">0%</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2022-04-02T00:00:00+10:30" end-time-local="2022-04-03T00:00:00+10:30" start-time-utc="2022-04-01T13:30:00Z" end-time-utc="2022-04-02T13:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Sunny.</text>
+                <text type="probability_of_precipitation">0%</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2022-04-03T00:00:00+10:30" end-time-local="2022-04-04T00:00:00+09:30" start-time-utc="2022-04-02T13:30:00Z" end-time-utc="2022-04-03T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Partly cloudy.</text>
+                <text type="probability_of_precipitation">0%</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2022-04-04T00:00:00+09:30" end-time-local="2022-04-05T00:00:00+09:30" start-time-utc="2022-04-03T14:30:00Z" end-time-utc="2022-04-04T14:30:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Mostly sunny.</text>
+                <text type="probability_of_precipitation">0%</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2022-04-05T00:00:00+09:30" end-time-local="2022-04-06T00:00:00+09:30" start-time-utc="2022-04-04T14:30:00Z" end-time-utc="2022-04-05T14:30:00Z">
+                <element type="forecast_icon_code">1</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Sunny.</text>
+                <text type="probability_of_precipitation">5%</text>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT013" description="Elizabeth" type="location" parent-aac="SA_ME001">
+            <forecast-period index="1" start-time-local="2022-03-30T00:00:00+10:30" end-time-local="2022-03-31T00:00:00+10:30" start-time-utc="2022-03-29T13:30:00Z" end-time-utc="2022-03-30T13:30:00Z">
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT121" description="Glenelg" type="location" parent-aac="SA_ME001">
+            <forecast-period index="1" start-time-local="2022-03-30T00:00:00+10:30" end-time-local="2022-03-31T00:00:00+10:30" start-time-utc="2022-03-29T13:30:00Z" end-time-utc="2022-03-30T13:30:00Z">
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">23</element>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT035" description="Noarlunga" type="location" parent-aac="SA_ME001">
+            <forecast-period index="1" start-time-local="2022-03-30T00:00:00+10:30" end-time-local="2022-03-31T00:00:00+10:30" start-time-utc="2022-03-29T13:30:00Z" end-time-utc="2022-03-30T13:30:00Z">
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+            </forecast-period>
+        </area>
+        <area aac="SA_PT028" description="Mount Barker" type="location" parent-aac="SA_ME001">
+            <forecast-period index="1" start-time-local="2022-03-30T00:00:00+10:30" end-time-local="2022-03-31T00:00:00+10:30" start-time-utc="2022-03-29T13:30:00Z" end-time-utc="2022-03-30T13:30:00Z">
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
