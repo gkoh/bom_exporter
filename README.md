@@ -6,6 +6,25 @@ the Australian Bureau of Meteorology.
 The exporter adapts the forecast and observation data feeds (from the anonymous
 FTP BOM server) into promscrape compatible format.
 
+# Screenshots
+
+## Heatmap
+
+Using latitude, longitude and ambient temperature observations a heatmap of
+Australia can be generated using Grafana's Geomap panel.
+
+Note: The hot areas around capital cities are indicative of denser station
+presence than actual heat.
+
+![Australia Heatmap](images/au_temperatures.png)
+
+## Forecast vs Actual
+
+Using the daily forecast (index 0), we can compare the predicted maximum against
+the actual maximum observed.
+
+![Forecast vs Observed](images/forecast_vs_observation_temp_max.png)
+
 # Metrics
 
 Help text is available for all metrics when scraped.
@@ -70,6 +89,8 @@ A binary called `bom_exporter` should be compiled.
 ```
 go test ./...
 ```
+
+# Usage
 
 ## Scraping Data
 `bom_exporter` will serve forecast scrape data on the following URL:
