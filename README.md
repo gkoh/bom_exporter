@@ -93,7 +93,8 @@ go test ./...
 # Usage
 
 ## Scraping Data
-`bom_exporter` will serve forecast scrape data on the following URL:
+`bom_exporter` will serve forecast and observations scrape data on the following
+URL:
 ```
 http://<server>:8080/metrics?id=<product_id>
 ```
