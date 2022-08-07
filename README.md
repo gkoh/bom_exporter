@@ -21,9 +21,13 @@ presence rather than actual heat.
 ## Forecast vs Actual
 
 Using the daily forecast (index 0), we can compare the predicted maximum against
-the actual maximum observed.
+the actual maximum observed. We can see in this instance the forecast isn't
+terribly wrong, usually.
 
 ![Forecast vs Observed](images/forecast_vs_observation_temp_max.png)
+
+With some PromQL the data could be summarised and displayed as a per day
+difference.
 
 # Metrics
 
