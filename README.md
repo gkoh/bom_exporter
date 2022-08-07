@@ -21,7 +21,7 @@ go test ./...
 ## Scraping Data
 `bom_exporter` will serve forecast scrape data on the following URL:
 ```
-http://<server>:8080/metrics?<product_id>
+http://<server>:8080/metrics?id=<product_id>
 ```
 Where the product identifier can be obtained from:
 http://www.bom.gov.au/catalogue/anon-ftp.shtml
