@@ -14,7 +14,7 @@ Using latitude, longitude and ambient temperature observations a heatmap of
 Australia can be generated using Grafana's Geomap panel.
 
 Note: The hot areas around capital cities are indicative of denser station
-presence than actual heat.
+presence rather than actual heat.
 
 ![Australia Heatmap](images/au_temperatures.png)
 
