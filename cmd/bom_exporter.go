@@ -1,6 +1,6 @@
 package main
 
-import (
+  import (
 	"bom_exporter/bom"
 	"bom_exporter/bom/connection/ftp"
 	"fmt"
