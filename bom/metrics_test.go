@@ -1,7 +1,7 @@
 package bom
 
 import (
-	"bom_exporter/bom/connection/file"
+	"github.com/gkoh/bom_exporter/bom/connection/file"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"testing"
 )

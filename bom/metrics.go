@@ -1,10 +1,10 @@
 package bom
 
 import (
-	"bom_exporter/bom/connection"
-	"bom_exporter/bom/forecast"
-	"bom_exporter/bom/observations"
-	"bom_exporter/bom/schema"
+	"github.com/gkoh/bom_exporter/bom/connection"
+	"github.com/gkoh/bom_exporter/bom/forecast"
+	"github.com/gkoh/bom_exporter/bom/observations"
+	"github.com/gkoh/bom_exporter/bom/schema"
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 	"sync"

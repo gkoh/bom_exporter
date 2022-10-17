@@ -1,4 +1,4 @@
-module bom_exporter
+module github.com/gkoh/bom_exporter
 
 go 1.18
 

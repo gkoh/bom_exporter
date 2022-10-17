@@ -1,8 +1,8 @@
 package observations
 
 import (
-	"bom_exporter/bom/schema"
 	"fmt"
+	"github.com/gkoh/bom_exporter/bom/schema"
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 	"strconv"

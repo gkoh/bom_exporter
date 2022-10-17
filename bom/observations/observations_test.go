@@ -1,7 +1,7 @@
 package observations
 
 import (
-	"bom_exporter/bom/schema"
+	"github.com/gkoh/bom_exporter/bom/schema"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"testing"
 	"time"
