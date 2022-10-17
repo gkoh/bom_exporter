@@ -1,10 +1,10 @@
 package main
 
 import (
-	"bom_exporter/bom"
-	"bom_exporter/bom/connection/ftp"
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/gkoh/bom_exporter/bom"
+	"github.com/gkoh/bom_exporter/bom/connection/ftp"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	log "github.com/sirupsen/logrus"
