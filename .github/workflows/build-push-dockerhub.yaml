@@ -12,7 +12,7 @@ jobs:
       - name: build image
         shell: bash
         run: |
-          docker build -t jackdwyer/bom_exporter:latest .
+          docker build -t ${{ vars.DOCKERHUB_TAG }} .
       - name: login to dockerhub
         shell: bash
         run: |
@@ -20,5 +20,5 @@ jobs:
       - name: publish to dockerhub
         shell: bash
         run: |
-          docker push jackdwyer/bom_exporter:latest
+          docker push ${{ vars.DOCKERHUB_TAG }}
 
