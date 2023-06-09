@@ -62,7 +62,7 @@ The following labels are common to all forecast metrics:
 | bom_observations_cloud_cover | units | Cloud cover in 'units' |
 | bom_observations_humidity | units | Humidity in 'units' |
 | bom_observations_pressure | type, units | Pressure in 'units' |
-| bom_observations_rainfall | units | Rainfall since 9am |
+| bom_observations_rainfall | type, units | Rainfall in 'units', where 'type' can be '9am' or '24hr' |
 | bom_observations_temperature | type, units | Temperature in 'units', where 'type' can be dew_point, ambient, apparent, maximum, minimum, delta_t |
 | bom_observations_visibility | units | Distance of visibility in 'units' |
 | bom_observations_wind_direction | units | Wind direction in 'units' |

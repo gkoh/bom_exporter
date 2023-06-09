@@ -95,8 +95,8 @@ func New(product schema.Product) *Observations {
 
 	o.rainfallDesc = prometheus.NewDesc(
 		prometheus.BuildFQName("bom", "observations", "rainfall"),
-		"Rain since 9am.",
-		[]string{"bom_id", "wmo_id", "station_name", "latitude", "longitude", "description", "region", "index", "units"},
+		"Rainfall.",
+		[]string{"bom_id", "wmo_id", "station_name", "latitude", "longitude", "description", "region", "index", "type", "units"},
 		labels)
 
 	return &o
@@ -275,6 +275,26 @@ func (o *Observations) processPeriod(station *schema.Station, ch chan<- promethe
 						e.Unit))
 			}
 
+		case "rainfall":
+			v, err := strconv.ParseFloat(e.Value, 64)
+			if err == nil {
+				ch <- prometheus.NewMetricWithTimestamp(time.Time(station.Period.TimeUTC),
+					prometheus.MustNewConstMetric(
+						o.rainfallDesc,
+						prometheus.GaugeValue,
+						v,
+						station.WmoID,
+						station.BomID,
+						station.Name,
+						fmt.Sprintf("%f", station.Latitude),
+						fmt.Sprintf("%f", station.Longitude),
+						station.Description,
+						region,
+						station.Period.Index,
+						"9am",
+						e.Unit))
+			}
+
 		case "rainfall_24hr":
 			v, err := strconv.ParseFloat(e.Value, 64)
 			if err == nil {
@@ -291,6 +311,7 @@ func (o *Observations) processPeriod(station *schema.Station, ch chan<- promethe
 						station.Description,
 						region,
 						station.Period.Index,
+						"24hr",
 						e.Unit))
 			}
 
