@@ -54,8 +54,8 @@ func TestObservationsCollector(t *testing.T) {
 		"bom_observations_cloud_cover",
 		"bom_observations_wind_direction",
 		"bom_observations_rainfall")
-	if count != 1184 {
-		t.Errorf("Got %d metrics, expected %d", count, 1184)
+	if count != 1260 {
+		t.Errorf("Got %d metrics, expected %d", count, 1260)
 	}
 
 	problems, err := testutil.CollectAndLint(o,
