@@ -109,6 +109,11 @@ func TestCollector(t *testing.T) {
 			Value: "270",
 		},
 		{
+			Type:  "rainfall",
+			Unit:  "mm",
+			Value: "3.2",
+		},
+		{
 			Type:  "rainfall_24hr",
 			Unit:  "mm",
 			Value: "4.6",
