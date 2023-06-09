@@ -89,6 +89,9 @@ go build cmd/bom_exporter.go
 
 A binary called `bom_exporter` should be compiled.
 
+## Docker
+A Docker image is available on Docker Hub [here](https://hub.docker.com/r/gkoh0/bom_exporter).
+
 ## Test
 ```
 go test ./...
@@ -165,7 +168,4 @@ interface that I have familiarity (Grafana).
      'next issue time' to intelligently schedule the next FTP retrieval.
 - Support other products, eg. tides
   - Decode more metrics (eg. rainfall quantity forecast)
-- Release a Docker image
-  - Look into goreleaser
 - Improve test coverage
-- Add continuous integration
