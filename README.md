@@ -90,7 +90,7 @@ go build cmd/bom_exporter.go
 A binary called `bom_exporter` should be compiled.
 
 ## Docker
-A Docker image is available on Docker Hub [here](https://hub.docker.com/r/gkoh0/bom_exporter).
+A Docker image is available on ghcr.io [here](https://github.com/gkoh/bom_exporter/pkgs/container/bom_exporter).
 
 ## Test
 ```
