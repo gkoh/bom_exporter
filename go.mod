@@ -1,6 +1,7 @@
 module github.com/gkoh/bom_exporter
 
-go 1.21
+go 1.22
+
 toolchain go1.24.1
 
 require (
